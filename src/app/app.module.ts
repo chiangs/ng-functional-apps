@@ -5,11 +5,13 @@ import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 import { SimpleCounterComponent } from './simple-counter/simple-counter.component';
 import { SharedModule } from './shared/shared.module';
+import { CalCounterComponent } from './cal-counter/cal-counter.component';
 
 @NgModule({
   declarations: [
     AppComponent,
-    SimpleCounterComponent
+    SimpleCounterComponent,
+    CalCounterComponent
   ],
   imports: [
     BrowserModule,
